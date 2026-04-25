@@ -11,10 +11,9 @@ body {
 }
 
 header {
-  background: linear-gradient(rgba(15, 23, 42, 0.75), rgba(15, 23, 42, 0.75)),
-    url("https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=1600&q=80") center/cover no-repeat;
+  background-color: #0f172a;
   color: white;
-  min-height: 100vh;
+  min-height: 80vh;
   padding: 20px 60px 80px;
 }
 
@@ -38,6 +37,10 @@ nav ul {
   padding: 0;
   margin: 0;
   flex-wrap: wrap;
+}
+
+nav li {
+  list-style: none;
 }
 
 nav a {
